@@ -1,0 +1,64 @@
+* {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav img {
+    width: 5em;
+}
+
+nav .navbar-nav a {
+    font-weight: 500;
+}
+
+#navbarNav{
+    justify-content: end;
+}
+
+section .card-body .card-text {
+    font-weight: 300;
+}
+
+/* main .card img {
+    height: 60%;
+} */
+
+.card-footer .pantiguo {
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+
+.card-footer .pnuevo {
+    font-weight: 500;
+    color: #28a745;
+    font-size: 1.6em;
+}
+
+.card-body i {
+    color: #28a745;
+}
+
+.card-body span {
+    font-weight: 300;
+}
+
+footer p {
+    font-weight: 300;
+}
+
+footer img {
+    width: 5em;
+}
+
+section .card{
+    transition: all 0.3s;
+}
+
+section .card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.75);
+    transform: scale(1.08);
+}
+
